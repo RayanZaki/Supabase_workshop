@@ -15,7 +15,7 @@ export default function Account() {
       setLoading(true);
 
       const { data, error } = await supabase
-        .from("profiles_1")
+        .from("accounts")
         .select(`*`)
         .single();
 
@@ -56,7 +56,7 @@ export default function Account() {
       updated_at: new Date(),
     };
 
-    const { error } = await supabase.from("profiles_1").upsert(updates);
+    const { error } = await supabase.from("accounts").upsert(updates);
 
     if (error) {
       alert(error.message);
