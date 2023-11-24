@@ -8,7 +8,8 @@
 
 
 ## How to run?:
-
+if you have git installed, use methode 1, else use Methode 2
+## Methode 1:
 - **Clone the repository** 
 ```
 git clone https://github.com/RayanZaki/Supabase_workshop.git
@@ -20,6 +21,19 @@ code .
 ```
 
 - **Install dependencies and run the project**
+```
+cd supabase-react/
+npm install
+npm run dev
+```
+
+## Methode 2:
+- **Download the following zip file: [file](https://drive.google.com/file/d/1__LM3Zez4prRlkX0gvfPjHRNhie77x2J/view?usp=sharing)**
+- **Open the directory with your text editor ( vscode )**
+- **open new terminal** 
+- **Install dependencies and run the project**
+
+paste the following
 ```
 cd supabase-react/
 npm install
