@@ -5,8 +5,18 @@
 
 - Slides [link](https://docs.google.com/presentation/d/1BFAaGYSvgKdOC5dF8OK7IIzwNB-oSxL26SldHt87D3I/edit?usp=sharing)
 
-
-
 ![](image-1.png)
 
 ![](image.png)
+
+## How to run?:
+
+```
+git clone https://github.com/RayanZaki/Supabase_workshop.git
+cd Supabase_workshop/supabase-react/
+```
+
+```
+npm install
+npm run dev
+```
