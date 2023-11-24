@@ -5,9 +5,7 @@
 
 - Slides [link](https://docs.google.com/presentation/d/1BFAaGYSvgKdOC5dF8OK7IIzwNB-oSxL26SldHt87D3I/edit?usp=sharing)
 
-![](image-1.png)
 
-![](image.png)
 
 ## How to run?:
 
@@ -27,3 +25,15 @@ cd supabase-react/
 npm install
 npm run dev
 ```
+
+- **Open the browser and type the following url:**
+```
+http://localhost:5173/
+```
+
+You will be redirected to the following pages:
+
+![](image.png)
+
+![](image-1.png)
+
