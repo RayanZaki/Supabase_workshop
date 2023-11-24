@@ -23,7 +23,7 @@ code .
 
 - **Install dependencies and run the project**
 ```
-npm install
 cd supabase-react/
+npm install
 npm run dev
 ```
