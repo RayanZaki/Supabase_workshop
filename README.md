@@ -13,10 +13,11 @@
 
 ```
 git clone https://github.com/RayanZaki/Supabase_workshop.git
-cd Supabase_workshop/supabase-react/
+cd Supabase_workshop/
 ```
 
 ```
 npm install
+cd supabase-react/
 npm run dev
 ```
