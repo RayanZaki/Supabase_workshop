@@ -4,7 +4,6 @@ create table profiles (
   updated_at timestamp with time zone,
   username text unique,
   full_name text,
-  email text,
   avatar_url text,
 
   constraint username_length check (char_length(username) >= 3)
@@ -30,8 +29,8 @@ create policy "Users can update own profile." on profiles
 create or replace function public.handle_new_user()
 returns trigger as $$
 begin
-  insert into public.profiles (id, full_name, avatar_url, email)
-  values (new.id, new.raw_user_meta_data->>'full_name', new.raw_user_meta_data->>'avatar_url', new.raw_user_meta_data->>'email');
+  insert into public.profiles (id, full_name, avatar_url)
+  values (new.id, new.raw_user_meta_data->>'full_name', new.raw_user_meta_data->>'avatar_url');
   return new;
 end;
 $$ language plpgsql security definer;
