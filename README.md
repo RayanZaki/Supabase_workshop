@@ -11,11 +11,17 @@
 
 ## How to run?:
 
+- **Clone the repository** 
 ```
 git clone https://github.com/RayanZaki/Supabase_workshop.git
 cd Supabase_workshop/
 ```
+- **Open the directory with your text editor ( vscode )**
+```
+code .
+```
 
+- **Install dependencies and run the project**
 ```
 npm install
 cd supabase-react/
