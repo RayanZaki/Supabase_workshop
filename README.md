@@ -26,10 +26,7 @@ npm install
 npm run dev
 ```
 
-- **Open the browser and type the following url:**
-```
-http://localhost:5173/
-```
+- **Open the browser and type the following url: [http://localhost:5173/](http://localhost:5173/)**
 
 You will be redirected to the following pages:
 
